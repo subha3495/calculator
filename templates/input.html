@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="aqua">
+<form action="./calculator" method="post">
+    {% csrf_token %}
+    Enter Fno:<input type="text" name="t1"><br>
+    Enter Sno:<input type="text" name="t2"><br>
+    <input type="submit" value="add" name="top">
+    <input type="submit" value="sub" name="top">
+    <input type="submit" value="mul" name="top">
+    <input type="submit" value="div" name="top">
+</form>
+</body>
+</html>
